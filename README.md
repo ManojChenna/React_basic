@@ -1,2 +1,3 @@
 # React_basic
-Created with CodeSandbox
+
+Creating a basic React app and using react-bootstap
