@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import { Navbar, NavDropdown, Nav } from "react-bootstrap";
+import faker from "faker";
 
 export default function App() {
   return (
@@ -27,8 +28,11 @@ export default function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <div className="comment">
+        <a href="/" className="avatar">
+          <img alt="avatar" src={faker.image.image()} />
+        </a>
+      </div>
     </div>
   );
 }
